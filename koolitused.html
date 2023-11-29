@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <title>rohkemelus - koolitused ettevõtetele</title>
+</head>
+<body>
+
+  <nav>
+    <img src="images/uus.png" class="logo">
+    <ul class="sidebar">
+        <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li class="link"><a href="index.html">Avaleht</a></li>
+        <li class="link"><a href="minust.html">Minust</a></li>
+        <li class="link"><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+    <ul class="nav__links">
+      <li class="hideOnMobile"><a href="index.html">Avaleht</a></li>
+      <li class="hideOnMobile"><a href="minust.html">Minust</a></li>
+      <li class="hideOnMobile"><a href="kontakt.html">Kontakt</a></li>
+      <li class="menu-button" onclick="showSidebar()">
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26">
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+          </svg>
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+<!--kaanepilt-->
+<section class="koolitused__banner" id="home">
+  <h1>Koolitused</h1>
+</section>
+
+
+<!--courses-->
+<section class="section__container courses__container" id="minust">
+  <div class="courses__content">
+    <h2 class="courses__header">1. Terviseteadlikkus</h2>
+    <p>
+      Terviseteadlikkus ehk kuidas olla iseendale eratreener? See on terviklik ja kõige põhjalikum
+      koolitus, kus räägin energia tekkest, hingamise olulisusest ja erinevatest treeningaladest.
+      Terviseteadlikkus on koolitus, kus selgitan kuulajale lihtsate ja eluliste näidetega inimkeha
+      füsioloogiat ning seeläbi ka seda, kuidas ja miks peame muutma teatud harjumusi, et olla
+      tervem ja reipam. Selle koolituse käigus tekib mõistmine, miks on oluline olla aktiivne,
+      miks me hingame ja kuidas läbi hingamise muuta oma keha füsioloogilisi protsesse.
+      Minu jaoks on oluline, et kuulaja saaks aru, kuidas ja miks mingid protsessid meie kehas
+      toimivad ning seeläbi saab inimene luua teadliku muutuse oma elustiilis. Koolitus sobib igas
+      suuruses kollektiividele igas Eesti otsas!
+      
+    </p><br></br>
+    <p>Kestvus: 3h</p>
+    <p>Hind: 450€ + KM</p>
+  </div>
+
+  <div class="courses__content">
+    <h2 class="courses__header">2. Kuidas tekib ja kuhu kaob energia?</h2>
+    <p>
+      Kuidas tekib ja kuhu kaob energia on kompaktsem koolitus, mis keskendub energiatekkele
+      meie organismis. Koolitusel selgitan energia teket füsioloogiliselt ning kuidas saame energia
+      tootmist suurendada. Samuti selgitan, miks on paljud inimesed pidevad energiapuuduses ning
+      kuidas saaksime optimeerida oma energia kulutamist. Kui Sinu kollektiiv vajab natuke
+      lisaenergiat siis on see koolitus igati sobilik. Koolitus sobib igas suuruses kollektiividele igas Eesti otsas!
+    </p><br></br>
+    <p>Kestvus: 1.5h</p>
+    <p>Hind: 300€ + KM</p>
+  </div>
+
+  <div class="courses__content">
+    <h2 class="courses__header">3. Hingamise olulisus</h2>
+    <p>
+      Nagu pealkiri ütleb, siis antud koolitus räägib hingamise olulisusest. Hingamise olulisus on
+      samuti kompaktsem koolitus, mis keskendub hingamisele. Selgitan hingamise protsessi
+      olemust inimkehas ning miks on hapnik organismile nii oluline. Seeläbi toon ka välja
+      võimalused, kuidas saame hingamist enda jaoks positiivselt ära kasutada. Koolitus sobib igas
+      suuruses kollektiividele igas Eesti otsas!
+    </p><br></br>
+    <p>Kestvus: 1.5h</p>
+    <p>Hind: 300€ + KM</p>
+  </div>
+</section>
+
+
+        <!-- Footer -->
+        <section class="footer">
+            <h4>Kontakt</h4>
+            <ul>
+            <li>Kristjan Saar</li>
+            <li>Tel: +372 5148081</li>
+            <li>Email: kristjan@rohkemelus.ee</li>
+          </ul>
+        </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

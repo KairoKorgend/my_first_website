@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <title>rohkemelus - koolitused ettevõtetele</title>
+</head>
+<body>
+
+    <div class="content-wrapper">
+        
+            <nav>
+                <img src="images/uus.png" class="logo">
+                <ul class="sidebar">
+                    <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                    <li class="link"><a href="koolitused.html">Koolitused</a></li>
+                    <li class="link"><a href="minust.html">Minust</a></li>
+                    <li class="link"><a href="kontakt.html">Kontakt</a></li>
+                </ul>
+                <ul class="nav__links">
+                  <li class="hideOnMobile"><a href="koolitused.html">Koolitused</a></li>
+                  <li class="hideOnMobile"><a href="minust.html">Minust</a></li>
+                  <li class="hideOnMobile"><a href="kontakt.html">Kontakt</a></li>
+                  <li class="menu-button" onclick="showSidebar()">
+                    <a href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26">
+                        <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+                      </svg>
+                    </a>
+                  </li>
+              </ul>
+            </nav>
+
+        <section class="banner-div" id="home">
+          <h3>Soovid avastada oma tõelise potentsiaali?</h3>
+          <h1>Rohkem<br>elus</h1>
+          <h2>Koolitused ettevõtetele ja asutustele</h2>
+      </section>
+
+                <!-- Minust section -->
+                <section class="section__container about__container" id="minust">
+                  <div class="portree__image">
+                      <img src="images/portree.jpg" alt="why yoga" />
+                    </div>
+                    <div class="about__content">
+                      <h2 class="section__header">Minust</h2>
+                      <p>
+                        Olen terve oma elu olnud seotud aktiivse eluviisi, spordi ja kehakultuuriga. Olen lõpetanud
+                        kehakultuuri eriala ning töötanud selles valdkonnas nii treeneri, juhendaja kui ka
+                        õppealajuhatajana spordikoolis. Hetkel töötan haridussüsteemis ning annan lisaks ka
+                        valikaine tunde gümnaasiumiastmele. Mind on pikalt huvitanud inimkeha toimimine ja see,
+                        kuidas saaksime elada kauem ja tervena. Minu jaoks on oluline tervik ehk kuidas siduda kõik
+                        meile olulised valdkonnad terviklikuks – treening, toitumine, puhkamine ja vaimne areng.
+                        Oma koolitustes loon seoseid nende valdkondade vahel ning aitan kuulajal luua endale ühtne
+                        arusaam tervema elu poole liikumisest.<br></br>
+                        <p>- Kristjan Saar</p>
+                      </p>
+                      <a href="minust.html">
+                      <button class="minust_btn">Loe lähemalt</button>
+                    </a>
+                    </div>
+              </section>
+
+        <!-- Koolitused section -->
+        <section class="koolitused" id="koolitused">     
+          <div class="section__container koolitused__container">
+                  <h2 class="section__header">Koolitused</h2>
+                  <div class="koolitused__grid">
+                    <a href="koolitused.html" class="koolituses__card-link">
+                    <div class="koolitused__card">
+                        <img src="images/Lower Body Workout.jpg" alt="">
+                      <h4>Terviseteadlikkus</h4>
+                      <p>Terviseteadlikkus ehk kuidas olla iseendale eratreener? Terviklik koolitus,
+                        mis hõlmab ülevaadet hingamise olulisusest, energia tekkest inimorganismis ning
+                        kuidas saame neid protsesse oma tervise jaoks parimal moel tööle panna.
+                      </p>
+                    </div>
+                  </a>
+                    <a href="koolitused.html" class="koolituses__card-link">
+                    <div class="koolitused__card">
+                        <img src="images/Handstand .jpg" alt="">
+                      <h4>Kuidas tekib energia?</h4>
+                      <p>Kuidas olla energilisem ja tunda ennast iga päev suurepäraselt? Energiateke
+                        organismis on protsess, mida saame juhtida ning energia on resurss, mida saab
+                        taastoota. Energiahulgast sõltub meie elus palju. Kas Sina tead, kuidas tekib energia ja kuhu kaob energia?
+                      </p>
+                    </div>
+                  </a>
+                  <a href="koolitused.html" class="koolituses__card-link">
+                    <div class="koolitused__card">
+                        <img src="images/Zen.jpg" alt="">
+                      <h4>Hingamise olulisus</h4>
+                      <p>Hapnik on tõeline salarelv organismi suurepäraseks toimimiseks ning see ressurss
+                        on inimestel paljuski kasutamata. Hapniku olemasolul muutuvad füsioloogiliselt mitmed
+                        protsessid, millel on oluline tähtsus meie tervisele.
+                      </p>
+                    </div>
+                  </a>
+                  </div>
+                  </section>
+
+        <!-- Slogan section -->
+        <section class="slogan" id="slogan">
+            <div class="section__container slogan__container">
+                <div class="slogan__card">
+                  <h4>"Selleks, et olla rohkem elus peame panema<br>
+                    ennast olukorda, kus meil on piisavalt<br>ebamugav"</h4>
+                </div>
+              </div>
+        </section>
+
+        <!-- Kontakt section -->
+        <section class="kontakt" id="kontakt">
+
+         <form action="#">
+          <div class="input-box">
+            <h2>Võta minuga ühendust!</h2>
+            <div class="input-field field">
+              <input type="text" placeholder="Nimi" id="name"
+              class="item" autocomplete="off">
+            </div>
+            <div class="input-field field">
+              <input type="text" placeholder="E-post"
+              id="email" class="item" autocomplete="off">
+            </div>
+          </div>
+
+          <div class="input-box">
+            <div class="input-field field">
+              <input type="text" placeholder="Telefon"
+              id="phone" class="item" autocomplete="off">
+            </div>
+            <div class="input-field field">
+              <input type="text" placeholder="Teema"
+              id="subject" class="item" autocomplete="off">
+            </div>
+          </div>
+
+          <div class="textarea-field field">
+            <textarea name="" id="message" cols="30" rows="5"
+            placeholder="Sõnum" class="item"
+            autocomplete="off"></textarea>
+          </div>
+
+          <button type="submit">Saada</button>
+         </form>
+      </section>
+        
+        <!-- Footer -->
+        <section class="footer">
+            <h4>Kontakt</h4>
+            <ul>
+            <li>Kristjan Saar</li>
+            <li>Tel: +372 5148081</li>
+            <li>Email: kristjan@rohkemelus.ee</li>
+          </ul>
+        </section>
+    </div> <!-- End of content-wrapper -->
+
+    <script src="https://smtpjs.com/v3/smtp.js">
+    </script>
+    <script src="script.js"></script>
+
+</body>
+</html>

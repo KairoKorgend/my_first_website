@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <title>rohkemelus - koolitused ettevõtetele</title>
+</head>
+<body>
+
+  <nav>
+    <img src="images/uus.png" class="logo">
+    <ul class="sidebar">
+        <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+        <li class="link"><a href="index.html">Avaleht</a></li>
+        <li class="link"><a href="koolitused.html">Koolitused</a></li>
+        <li class="link"><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+    <ul class="nav__links">
+      <li class="hideOnMobile"><a href="index.html">Avaleht</a></li>
+      <li class="hideOnMobile"><a href="koolitused.html">Koolitused</a></li>
+      <li class="hideOnMobile"><a href="kontakt.html">Kontakt</a></li>
+      <li class="menu-button" onclick="showSidebar()">
+        <a href="#">
+          <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26">
+            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/>
+          </svg>
+        </a>
+      </li>
+  </ul>
+</nav>
+
+<!--kaanepilt-->
+<section class="koolitused__banner" id="home">
+  <h1>Missiooniga koolitaja</h1>
+</section>
+
+                <!-- Minust section -->
+                <section class="section__container about__container" id="minust">
+                  <div class="portree__image">
+                    <img src="images/kristjan.jpg" alt="why yoga" />
+                    </div>
+                    <div class="about__content">
+                      <h2 class="section__header">Minust</h2>
+                      <p>
+                        Miks minust sai koolitaja? Vastus peitub selles, et 7 aastat tagasi hakkasin tegelema jooga ja
+                        enesearenguga, mis tekitas minus tõelise huvi kogu inimkeha vastu. Sellest ajast olen süvitsi
+                        uurinud inimese toimimist nii füsioloogilisest, füüsilisest kui vaimsest aspektist. Olen teinud
+                        iseenda peal erinevaid katseid, mis on andnud mulle huvitavaid kogemusi. Olen katsetanud
+                        toitumise mõju kehale (teinud perioodiliselt nii suhkru-, kohvi-, alkoholi- ja gluteenivaba
+                        dieeti), olen töötanud välja parima võimaliku treeningrutiini tervisesportlastele ning
+                        katsetanud ka vaimsete praktikatega, kuidas saavutada rahu ja kergus eneses. Tänu isiklikule
+                        kogemusele ja omandatud teadmistele tunnen, et olen valmis andma edasi põnevaid avastusi,
+                        mis võiks ka teisi inimesi panna ennast tundma rohkem elus!<br></br>
+                        <p>- Kristjan Saar</p>
+                      </p>
+                    </div>
+              </section>
+
+<!--courses-->
+<section class="section__container courses__container" id="minust">
+  <div class="courses__content">
+    <h2 class="courses__header">Koolitaja</h2>
+    <p>
+      Koolituste andmisega alustasin 2022. aastal. Olen käinud rääkimas üle Eesti mitmetes
+      haridusasutustes ning ettevõtetes. Koolitamine on see, mis paneb mul silma särama ning teen
+      seda kogu pühendumusega.
+    </p>
+  </div>
+
+  <div class="courses__content">
+    <h2 class="courses__header">Valikaine õpetaja</h2>
+    <p>
+      Alates 2022. aastast alustasin valikaine andmist gümnaasiumiastme õpilastele. Valikaines
+      "Teadlik enesejuhtimine" õpetan koolinoortele, kuidas leida tasakaal erinevate
+      eluvaldkondade vahel, kuidas treenida ja puhata ning kuidas saavutada parem enesetunne.
+      Valikainet õpetasin Saku gümnaasiumis ning hetkel viin aktiivselt läbi valikainet Saue
+      riigigümnaasiumis.
+    </p>
+  </div>
+
+  <div class="courses__content">
+    <h2 class="courses__header">Treener ja elupõline sportlane</h2>
+    <p>
+      Nooruses tegelesin ujumisega, kuid sealt liikusin edasi maadlemise juurde. Maadlemisega
+      tegelesin kõrgel tasemel 15 aastat ning suure osa oma karjäärist olin ka maadlustreener. Peale
+      profispordi lõpetamist tegelen jätkuvalt igapäevaselt tervisespordiga. Sport on olnud minu
+      elus alati kõrgel kohal ning olen läbi spordi õppinud palju. Nüüd meeldib mulle tegeleda
+      tasakaalustatult erinevate spordialadega – jõutreening, jooksmine, võimlemine, suusatamine.
+    </p>
+  </div>
+</section>
+        
+        <!-- Footer -->
+        <section class="footer">
+            <h4>Kontakt</h4>
+            <ul>
+            <li>Kristjan Saar</li>
+            <li>Tel: +372 5148081</li>
+            <li>Email: kristjan@rohkemelus.ee</li>
+          </ul>
+        </section>
+    </div> <!-- End of content-wrapper -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
